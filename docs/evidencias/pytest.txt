@@ -1,0 +1,19 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\natal\TPI_MS2_Sistema_Gestion_Solicitudes_Academicas\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\natal\TPI_MS2_Sistema_Gestion_Solicitudes_Academicas
+configfile: pyproject.toml
+testpaths: tests
+plugins: platformdirs-4.14.3, cov-7.1.0
+collecting ... collected 8 items
+
+tests/test_consola.py::test_leer_entero_reintenta_entrada_invalida PASSED [ 12%]
+tests/test_consola.py::test_leer_enum_rechaza_valor_invalido PASSED      [ 25%]
+tests/test_consola.py::test_ejecutar_salida PASSED                       [ 37%]
+tests/test_consola.py::test_ejecutar_opcion_invalida PASSED              [ 50%]
+tests/test_consola.py::test_ejecutar_registro_y_listado PASSED           [ 62%]
+tests/test_consola.py::test_ejecutar_error_de_validacion_controlado PASSED [ 75%]
+tests/test_consola.py::test_acciones_servicio_en_consola PASSED          [ 87%]
+tests/test_consola.py::test_reporte_y_lista_vacia PASSED                 [100%]
+
+============================== 8 passed in 0.06s ==============================
